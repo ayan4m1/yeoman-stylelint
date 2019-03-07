@@ -10,9 +10,7 @@
   "author": "ayan4m1 <andrew@bulletlogic.com>",
   "license": "MIT",
   "dependencies": {
-    "through2": "^3.0.1"
-  },
-  "peerDependencies": {
+    "through2": "^3.0.1",
     "stylelint": "^9.x"
   }
 }
