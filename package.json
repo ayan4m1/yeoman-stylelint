@@ -1,8 +1,11 @@
 {
   "name": "yeoman-stylelint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Run stylelint as a Yeoman transform stream",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "yeoman",
     "stylelint"
