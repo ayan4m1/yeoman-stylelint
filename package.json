@@ -1,10 +1,10 @@
 {
-  "name": "gulp-stylelint-simple",
+  "name": "yeoman-stylelint",
   "version": "0.1.0",
-  "description": "Run stylelint from Gulp",
+  "description": "Run stylelint as a Yeoman transform stream",
   "main": "index.js",
   "keywords": [
-    "gulp",
+    "yeoman",
     "stylelint"
   ],
   "author": "ayan4m1 <andrew@bulletlogic.com>",
