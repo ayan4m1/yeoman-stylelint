@@ -14,6 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "through2": "^3.0.1",
-    "stylelint": "^9.x"
+    "stylelint": "^10.x"
   }
 }
