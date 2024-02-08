@@ -2,6 +2,7 @@
   "name": "yeoman-stylelint",
   "version": "0.2.0",
   "description": "Run stylelint as a Yeoman transform stream",
+  "type": "module",
   "main": "index.js",
   "engines": {
     "node": ">=18.x"
@@ -19,7 +20,7 @@
     "stylelint": ">=10.x"
   },
   "dependencies": {
-    "through2": "^4.0.2"
+    "readable-stream": "^4.5.2"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
