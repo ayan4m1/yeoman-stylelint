@@ -3,6 +3,9 @@
   "version": "0.1.3",
   "description": "Run stylelint as a Yeoman transform stream",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.x"
+  },
   "files": [
     "index.js"
   ],
@@ -12,11 +15,13 @@
   ],
   "author": "ayan4m1 <andrew@bulletlogic.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "stylelint": ">=10.x"
+  },
   "dependencies": {
-    "through2": "^3.0.1",
-    "stylelint": "^10.x",
-    "lodash": "^4.17.15",
-    "mixin-deep": ">=1.3.2",
-    "set-value": ">=2.0.1"
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
